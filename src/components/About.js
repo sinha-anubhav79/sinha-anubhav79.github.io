@@ -199,12 +199,7 @@ function About() {
             <div className="card-body">
               <h5 className="card-title">Poetry</h5>
               <p className="card-text">Click below to see some of my works.</p>
-              <NavHashLink
-                to="/poem"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-outline-info"
-              >
+              <NavHashLink to="/poem" className="btn btn-outline-info">
                 Learn More
               </NavHashLink>
             </div>
@@ -219,12 +214,7 @@ function About() {
             <div className="card-body">
               <h5 className="card-title">Photo Editing</h5>
               <p className="card-text">Click below to see some of my works.</p>
-              <NavHashLink
-                to="/photo-edit"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-outline-info"
-              >
+              <NavHashLink to="/photo-edit" className="btn btn-outline-info">
                 Learn More
               </NavHashLink>
             </div>
@@ -243,12 +233,7 @@ function About() {
             <div className="card-body">
               <h5 className="card-title">Illustration and Sketching</h5>
               <p className="card-text">Click below to see some of my works.</p>
-              <NavHashLink
-                to="/sketch"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-outline-info"
-              >
+              <NavHashLink to="/sketch" className="btn btn-outline-info">
                 Learn More
               </NavHashLink>
             </div>
