@@ -199,14 +199,14 @@ function About() {
             <div className="card-body">
               <h5 className="card-title">Poetry</h5>
               <p className="card-text">Click below to see some of my works.</p>
-              <a
-                href="/poem"
+              <NavHashLink
+                to="/poem"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-outline-info"
               >
                 Learn More
-              </a>
+              </NavHashLink>
             </div>
           </div>
         </div>
@@ -215,18 +215,18 @@ function About() {
           data-aos="fade-up"
         >
           <div className="card text-center">
-            <img src={photoedit} className="card-img-top" alt="Poetry" />
+            <img src={photoedit} className="card-img-top" alt="Editing" />
             <div className="card-body">
               <h5 className="card-title">Photo Editing</h5>
               <p className="card-text">Click below to see some of my works.</p>
-              <a
-                href="/photo-edit"
+              <NavHashLink
+                to="/photo-edit"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-outline-info"
               >
                 Learn More
-              </a>
+              </NavHashLink>
             </div>
           </div>
         </div>
@@ -235,18 +235,22 @@ function About() {
           data-aos="fade-up"
         >
           <div className="card text-center">
-            <img src={sketch} className="card-img-top" alt="Poetry" />
+            <img
+              src={sketch}
+              className="card-img-top"
+              alt="Sketching and Illustration"
+            />
             <div className="card-body">
               <h5 className="card-title">Illustration and Sketching</h5>
               <p className="card-text">Click below to see some of my works.</p>
-              <a
-                href="/sketch"
+              <NavHashLink
+                to="/sketch"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-outline-info"
               >
                 Learn More
-              </a>
+              </NavHashLink>
             </div>
           </div>
         </div>
@@ -255,7 +259,7 @@ function About() {
           data-aos="fade-up"
         >
           <div className="card text-center">
-            <img src={videdit} className="card-img-top" alt="Poetry" />
+            <img src={videdit} className="card-img-top" alt="Video Editing" />
             <div className="card-body">
               <h5 className="card-title">Video Editing</h5>
               <p className="card-text">Click below to see some of my works.</p>
