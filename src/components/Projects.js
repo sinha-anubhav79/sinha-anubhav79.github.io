@@ -39,7 +39,7 @@ function Projects() {
                 first project assigned to us
               </p>
               <a
-                href="https://sinha-anubhav79.github.io/"
+                href="https://github.com/sinha-anubhav79/Portfolio"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-outline-info"
