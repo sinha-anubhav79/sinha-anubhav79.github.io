@@ -1,0 +1,93 @@
+{
+  "name": "ANUBHAV SINHA",
+  "contact": [
+    "+91-7004120948",
+    "Bengaluru, IN",
+    "sinha.anubhav.79@gmail.com",
+    "anubhavsinha.vercel.app/",
+    "linkedin.com/in/sinha-anubhav",
+    "/sinha79"
+  ],
+  "summary": "Full-Stack Software Engineer with 3+ years of industry experience across Oracle and Microsoft, specializing in high-throughput distributed systems and full-stack product delivery. Backend-leaning across the stack — equally comfortable designing scalable low-latency microservices and shipping responsive, performant frontend. Proven ability to own cross-cutting concerns: in-memory caching, API design, Kubernetes deployments, and UI performance.",
+  "experience": [
+    {
+      "company": "Oracle",
+      "location": "Bangalore, Karnataka",
+      "roles": [
+        {
+          "title": "Software Engineer",
+          "dates": "Aug 2023 – Present",
+          "bullets": [
+            "Designed and delivered a horizontally scalable event streaming pipeline (Kafka) to decouple a high-volume legacy processing path, using feature-flag-driven cutover (Helm toggles) to enable zero-downtime migration and reduce upstream database load by 35%.",
+            "Integrated a protocol translation layer into a legacy monolith to decouple core business logic from evolving network interfaces, enabling the system to absorb future protocol changes without service-layer modifications, sustaining 10k RPS at under 5ms latency overhead.",
+            "Architected configurable alerting workflows with deduplication logic, reducing redundant Kafka message volume by 27%; redesigned service mounting and initialization mechanisms to accelerate deployment pipelines by 25% while maintaining full backward compatibility.",
+            "Led frontend modernization of a legacy enterprise dashboard, migrating to Next.js and a modular component architecture — improving perceived load time by 14% and increasing user task-completion rate by 20%.",
+            "Built RESTful APIs and reusable UI components to automate high-variety file ingestion workflows, cutting manual processing time by 95%; leveraged Oracle Coherence distributed caching to serve real-time records at low latency under high concurrency.",
+            "Owned production reliability across 100+ incidents (39 P0/P1), reducing critical backlog by 31%; proactively documented root-cause patterns and authored runbooks to prevent recurrence of top failure classes."
+          ]
+        },
+        {
+          "title": "Software Engineer Intern",
+          "dates": "Jan 2023 – Jul 2023",
+          "bullets": [
+            "Spearheaded a Java 8-to-21 migration, resolving transitive dependency conflicts to eliminate 100% of critical CVEs; built an internal CLI utility to abstract complex build commands, cutting build time by 20% and reducing onboarding friction for new contributors.",
+            "Authored a comprehensive test suite for a newly decoupled microservice (Groovy/Spock), raising code coverage from 56% to 92% and establishing a testing baseline for the service.",
+            "Executed and validated hybrid deployments (on-prem and Kubernetes via Helm) for a high-throughput service, running load tests to confirm sub-50ms latency at peak concurrency."
+          ],
+          "techStack": "Java, JavaScript, Spring, Helidon, React.js, Next.js, Kafka, Groovy, Spock, Cucumber, Kubernetes, Helm"
+        }
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "location": "Noida, Uttar Pradesh",
+      "roles": [
+        {
+          "title": "Software Engineer Intern",
+          "dates": "May 2022 – Jul 2022",
+          "bullets": [
+            "Resolved a performance regression in Microsoft Loop's real-time collaboration layer, reducing round-trip latency by 25% — directly improving editing responsiveness for users on the collaborative canvas.",
+            "Extended the people picker component with configurable schema support, enabling flexible data integration for custom user contexts and reducing associated processing overhead by 35%.",
+            "Re-implemented 100% text-editing functionality following a breaking dependency removal, systematically identifying and resolving regressions to restore feature parity — eliminating a critical blocker for the Loop editing experience."
+          ],
+          "techStack": "TypeScript, React.js"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    { "category": "Languages", "items": "Java, JavaScript, TypeScript, C/C++, Python, Groovy, HTML/CSS" },
+    { "category": "Backend & Frameworks", "items": "Spring Boot, Spring, Helidon, Node.js, Express, REST APIs" },
+    { "category": "Frontend", "items": "React.js, Next.js, Tailwind CSS, Bootstrap" },
+    { "category": "Distributed Systems", "items": "Apache Kafka, Oracle Coherence, Microservices, Event-Driven Architecture" },
+    { "category": "Databases", "items": "Oracle NoSQL, MySQL, Postgres, MongoDB, Firebase" },
+    { "category": "Infrastructure", "items": "Kubernetes, Docker, Helm, CI/CD, Generative AI, Oracle Cloud Infrastructure" },
+    { "category": "Testing", "items": "Spock, Cucumber, Unit Testing, Integration Testing" },
+    { "category": "Core Strengths", "items": "System Design Principles, API Design, Performance Optimization, Problem Solving, Data Structures, Algorithms" }
+  ],
+  "projects": [
+    {
+      "title": "Resonance",
+      "techStack": "Next.js, Node.js, Express, MongoDB",
+      "dates": "December 2022",
+      "bullets": [
+        "Created the full-stack MVP in 10 weeks: set up JWT auth, protected routes (React Context API), and backend middleware for request handling, auth flow, validation, and error handling; primary owner of front-end and middleware.",
+        "Built RESTful APIs and data model for internship listings (15 API endpoints, 20+ React components); applied parameterized queries, server-side pagination, and MongoDB indexing to support efficient filtering and large result sets."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institute": "Birla Institute of Technology, Mesra",
+      "location": "Ranchi, JH",
+      "dates": "Aug 2019 – May 2023",
+      "degree": "B.Tech. in Information Technology",
+      "gpa": "GPA: 8.82"
+    }
+  ],
+  "achievements": [
+    "Rated 1800+ and solved 700+ LeetCode problems. Global Rank 135 in CodeChef September Long Challenge (6k+ participants).",
+    "Drove 60+ member team as Vice-chairman of IEEE (student body), managing events, budgets, workshops, and external collaborations.",
+    "Winner, Student Branch Associates Program (AISYWLC'20) — IEEE Delhi Section and Winner, IEEE LEAD'20 web development contest."
+  ]
+}

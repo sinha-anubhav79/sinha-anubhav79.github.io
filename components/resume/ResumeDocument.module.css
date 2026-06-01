@@ -1,0 +1,120 @@
+.resumeContainer {
+  background-color: #525659;
+  /* typical PDF viewer background */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.document {
+  background-color: white;
+  color: black;
+  width: 8.5in;
+  min-height: 11in;
+  padding: 1.0rem 1.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 11pt;
+  line-height: 1.25;
+  box-sizing: border-box;
+}
+
+.name {
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 24pt;
+  margin-bottom: 0.1rem;
+  font-weight: normal;
+}
+
+.contact {
+  text-align: center;
+  font-size: 10.5pt;
+  margin-bottom: 0.5rem;
+}
+
+.contact a {
+  color: black !important;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.sectionTitle {
+  font-weight: bold;
+  font-size: 11.5pt;
+  text-transform: uppercase;
+  border-bottom: 1.5px solid black;
+  margin-top: 0.75rem;
+  margin-bottom: 0.4rem;
+  text-align: start;
+}
+
+.summary {
+  text-align: justify;
+  font-size: 10pt;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.entry {
+  margin-bottom: 0.5rem;
+}
+
+.entryHeader {
+  margin-bottom: 0.1rem;
+}
+
+.document ul {
+  padding-left: 0.5rem;
+}
+
+.bullets {
+  font-size: 10.5pt;
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+  padding-left: 1.5rem;
+}
+
+.bullets li {
+  /* margin-bottom: 0.2rem; */
+  padding: 0;
+  text-align: start;
+}
+
+.techStack {
+  font-style: italic;
+  font-size: 10.5pt;
+  margin-top: 0.1rem;
+  margin-bottom: 0.5rem;
+  text-align: start;
+}
+
+@media print {
+  .resumeContainer {
+    background-color: white;
+    padding: 0;
+    display: block;
+  }
+
+  .document {
+    width: 100%;
+    min-height: auto;
+    padding: 0;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+:root {
+  /* Core Theme Colors (Dark Default) */
+  --themeLight: 75, 1, 154;
+  --themeMedium: 19, 1, 37;
+  --themeDark: 12, 11, 19;
+  
+  --bg-primary: rgb(32, 2, 64);
+  --text-primary: whitesmoke;
+  --nav-bg: rgb(12, 11, 19);
+  --card-bg: rgb(19, 1, 37);
+  --link-color: #c4d2e2;
+  
+  --about-section-bg: rgba(185, 185, 185, 0.1);
+  --about-section-shadow: #0c001479;
+  --work-section-shadow: #0c001441;
+  
+  --modal-bg: rgb(55, 15, 95);
+  --modal-border: rgba(255, 255, 255, 0.1);
+  --modal-close-filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+[data-theme='light'] {
+  --themeLight: 120, 30, 200;
+  --themeMedium: 240, 240, 245;
+  --themeDark: 255, 255, 255;
+  
+  --bg-primary: #f0f4f8;
+  --text-primary: #121212;
+  --nav-bg: #ffffff;
+  --card-bg: #ffffff;
+  --link-color: #0056b3;
+  
+  --about-section-bg: rgba(0, 0, 0, 0.05);
+  --about-section-shadow: rgba(0,0,0,0.1);
+  --work-section-shadow: rgba(0,0,0,0.05);
+  
+  --modal-bg: #ffffff;
+  --modal-border: rgba(0, 0, 0, 0.1);
+  --modal-close-filter: none;
+}
+
+html body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+iframe::-webkit-scrollbar {
+  display: none; 
+}
+
+html .disable-selection {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html * {
+  box-sizing: border-box;
+}
+
+html .card {
+  background-color: var(--card-bg);
+  transition: background-color 0.3s ease;
+}
+
+html .card-body {
+  color: var(--text-primary);
+}
+
+html .nav-link {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--link-color) !important;
+}
+
+.active-nav {
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(var(--themeLight));
+}
+
+.skills-icon {
+  width: 3em;
+}
+
+.progress {
+  background-color: rgb(247, 222, 255) !important ;
+}
+
+.progress-bar {
+  background-color: var(--bs-purple) !important ;
+}
+
+/*--------------Modals--------------*/
+html .modal-content {
+  background-color: var(--modal-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--modal-border);
+  transition: background-color 0.3s ease;
+}
+
+html .modal-header {
+  border-bottom: 1px solid var(--modal-border);
+}
+
+html .modal-footer {
+  border-top: 1px solid var(--modal-border);
+}
+
+html .modal-header .btn-close {
+  filter: var(--modal-close-filter);
+}
+/*--------------Modals--------------*/
+
+@media print {
+  nav, footer, .showcase {
+    display: none !important;
+  }
+  body, html {
+    background-color: white !important;
+  }
+}

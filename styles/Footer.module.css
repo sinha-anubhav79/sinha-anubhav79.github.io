@@ -1,0 +1,14 @@
+.contactIcon a {
+  color: var(--text-primary);
+  padding: 10px;
+}
+
+.contactIcon {
+  transition-property: all;
+  transition-duration: 0.5s;
+  padding: 1rem 0 !important;
+}
+
+.contactIcon:hover {
+  transform: translate(0, -10px);
+}

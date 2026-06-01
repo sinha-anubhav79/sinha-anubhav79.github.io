@@ -1,0 +1,29 @@
+[
+  {
+    "id" : 1,
+    "institute": "Delhi Public School, Bokaro",
+    "description": "I did my 10th from Delhi Public School, Bokaro Steel City. I passed the matriculate exam with 10 CGPA in June 2017.",
+    "month": "June",
+    "year": "2017",
+    "score": "10.0 CGPA",
+    "image": "/assets/images/institutions/school.png"
+  },
+  {
+    "id" : 2,
+    "institute": "Delhi Public School, Bokaro",
+    "description": "After passing the matriculate exam I continued in DPS itself for my intermediate exams. I passed my intermediate exams with 94.4%.",
+    "month": "May",
+    "year": "2019",
+    "score": "94.4%",
+    "image": "/assets/images/institutions/school.png"
+  },
+  {
+    "id" : 3,
+    "institute": "Birla Institute of Technology, MESRA",
+    "description": "I graduated from BIT Mesra with a B.Tech degree in Information Technology.",
+    "month": "May",
+    "year": "2023",
+    "score": "8.82 GPA",
+    "image": "/assets/images/institutions/college.png"
+  }
+]

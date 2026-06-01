@@ -1,0 +1,122 @@
+[
+  {
+    "category": "Languages",
+    "skills": [
+      {
+        "name": "C",
+        "skills_percentage": 70,
+        "logo": "C"
+      },
+      {
+        "name": "C++",
+        "skills_percentage": 80,
+        "logo": "CPP"
+      },
+      {
+        "name": "Java",
+        "skills_percentage": 70,
+        "logo": "Java"
+      },
+      {
+        "name": "JavaScript",
+        "skills_percentage": 70,
+        "logo": "JavaScript"
+      },
+      {
+        "name": "TypeScript",
+        "skills_percentage": 70,
+        "logo": "TypeScript"
+      },
+      {
+        "name": "HTML",
+        "skills_percentage": 80,
+        "logo": "HTML"
+      },
+      {
+        "name": "CSS",
+        "skills_percentage": 70,
+        "logo": "CSS"
+      },
+      {
+        "name": "Python",
+        "skills_percentage": 70,
+        "logo": "Python"
+      }
+    ]
+  },
+  {
+    "category": "Frameworks",
+    "skills": [
+      {
+        "name": "Next.js",
+        "skills_percentage": 70,
+        "logo": "NextJS"
+      },
+      {
+        "name": "Spring",
+        "skills_percentage": 45,
+        "logo": "Spring"
+      },
+      {
+        "name": "Spring Boot",
+        "skills_percentage": 40,
+        "logo": "SpringBoot"
+      },
+      {
+        "name": "Node.js",
+        "skills_percentage": 70,
+        "logo": "NodeJS"
+      },
+      {
+        "name": "Flutter",
+        "skills_percentage": 70,
+        "logo": "Flutter"
+      },
+      {
+        "name": "React Native",
+        "skills_percentage": 70,
+        "logo": "ReactNative"
+      }
+    ]
+  },
+  {
+    "category": "Libraries",
+    "skills": [
+      {
+        "name": "React",
+        "skills_percentage": 80,
+        "logo": "ReactJS"
+      }
+    ]
+  },
+  {
+    "category":"Tools",
+    "skills": [
+      {
+        "name": "Git",
+        "skills_percentage": 70,
+        "logo": "Git"
+      },
+      {
+        "name": "GitHub",
+        "skills_percentage": 70,
+        "logo": "GitHub"
+      },
+      {
+        "name": "GitLab",
+        "skills_percentage": 70,
+        "logo": "GitLab"
+      },
+      {
+        "name": "Helm",
+        "skills_percentage": 60,
+        "logo": "Helm"
+      },
+      {
+        "name": "Kubernetes",
+        "skills_percentage": 60,
+        "logo": "Kubernetes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "Youtube": [
+    {
+      "title": "Genda-phool song - Tom and Jerry version",
+      "src": "https://www.youtube.com/embed/bUEicBiE1z8",
+      "thumbnail": "http://img.youtube.com/vi/bUEicBiE1z8/0.jpg",
+      "date": "",
+      "aspectRatio": "16/9"
+    },
+    {
+      "title": "Summer Trek 2015",
+      "src": "https://www.youtube.com/embed/BbxWx64innc",
+      "thumbnail": "http://img.youtube.com/vi/BbxWx64innc/mqdefault.jpg",
+      "date": "",
+      "aspectRatio": "16/9"
+    }
+  ],
+  "Instagram": [
+    {
+      "title": "Dharamshala Trip",
+      "src": "/assets/videos/Dharamshala_trip.mp4",
+      "thumbnail": "/assets/videos/dharamshala_trip_thumbnail.png",
+      "date": "",
+      "aspectRatio": "9/16"
+    },
+    {
+      "title": "Batch Photography",
+      "src": "/assets/videos/Batch_Photography.mp4",
+      "thumbnail": "/assets/videos/Batch_Photography_thumbnail.png",
+      "date": "",
+      "aspectRatio": "9/16"
+    },
+    {
+      "title": "2022 Recap",
+      "src": "/assets/videos/2022_Recap.mp4",
+      "thumbnail": "/assets/videos/2022_Recap_thumbnail.png",
+      "date": "",
+      "aspectRatio": "9/16"
+    }
+  ],
+  "WebsiteExclusive": [
+    {
+      "title": "Cicada",
+      "src": "/assets/videos/cicada_intro.mp4",
+      "thumbnail": "/assets/videos/cicada_thumbnail.png",
+      "date": "",
+      "aspectRatio": "16/9"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+.aboutImg {
+  box-shadow: 15px 15px #c4d2e2;
+}
+
+.aboutSection {
+  background-color: var(--about-section-bg);
+  box-shadow: -15px 15px var(--about-section-shadow);
+}
+
+.workSection {
+  background-color: var(--card-bg);
+  box-shadow: -15px 15px var(--work-section-shadow);
+}
+
+.thumbImg img {
+  height: 300px;
+}
+
+.thumbImg img:hover {
+  opacity: 0.5;
+}

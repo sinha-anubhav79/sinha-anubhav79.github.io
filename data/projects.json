@@ -1,0 +1,83 @@
+{
+    "webDevelopment": [
+        {
+            "id": "006",
+            "title": "Resonance",
+            "summary": "This was a platform for students and teachers to connect to get the rightly fitting research internship and aptly skillful candidate for projects respectively.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus vel augue sodales facilisis non eu turpis. Duis id efficitur libero. Donec leo odio, commodo ac enim nec, ultrices egestas nibh. Nam sit amet tempor purus, non ultricies neque. Nam malesuada in lectus ac euismod. Mauris ut ultrices felis, vitae pretium orci. Nunc consequat velit purus, at placerat purus cursus eu. Maecenas consectetur ipsum sed ex tristique mollis. Vivamus ornare eu elit id tincidunt. Vivamus ac justo efficitur, viverra nisl ac, imperdiet orci. Proin pulvinar, lorem non luctus suscipit, metus sem dapibus lorem, nec tempus urna enim sed nunc. Sed ac lobortis tellus, et tristique eros. Aenean nec nibh a lorem pulvinar bibendum quis vel libero. Maecenas pretium urna id enim egestas, at volutpat ex consequat. Nunc at odio eget mauris rhoncus blandit eget nec felis. Integer pulvinar pretium libero, eget mollis turpis consequat non.",
+            "link": "https://resonance-phi.vercel.app/",
+            "image": "/assets/images/projects/resonance.gif"
+        },
+        {
+            "id": "005",
+            "title": "Purple World",
+            "summary": "This was my first work for a client. This was my first full fledged, real world react project which I later switched to NEXTjs",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus vel augue sodales facilisis non eu turpis. Duis id efficitur libero. Donec leo odio, commodo ac enim nec, ultrices egestas nibh. Nam sit amet tempor purus, non ultricies neque. Nam malesuada in lectus ac euismod. Mauris ut ultrices felis, vitae pretium orci. Nunc consequat velit purus, at placerat purus cursus eu. Maecenas consectetur ipsum sed ex tristique mollis. Vivamus ornare eu elit id tincidunt. Vivamus ac justo efficitur, viverra nisl ac, imperdiet orci. Proin pulvinar, lorem non luctus suscipit, metus sem dapibus lorem, nec tempus urna enim sed nunc. Sed ac lobortis tellus, et tristique eros. Aenean nec nibh a lorem pulvinar bibendum quis vel libero. Maecenas pretium urna id enim egestas, at volutpat ex consequat. Nunc at odio eget mauris rhoncus blandit eget nec felis. Integer pulvinar pretium libero, eget mollis turpis consequat non.",
+            "link": "https://www.purpleworld.in/",
+            "image": "/assets/images/projects/purpleworld.gif"
+        },
+        {
+            "id": "004",
+            "title": "Lemonerd",
+            "summary": "An admin only blogging website with Firebase authentication, including frontend creation, blog pages, author profiles, and admin features utilizing Tinymce for HTML content storage in MongoDB and Firebase for images.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus vel augue sodales facilisis non eu turpis. Duis id efficitur libero. Donec leo odio, commodo ac enim nec, ultrices egestas nibh. Nam sit amet tempor purus, non ultricies neque. Nam malesuada in lectus ac euismod. Mauris ut ultrices felis, vitae pretium orci. Nunc consequat velit purus, at placerat purus cursus eu. Maecenas consectetur ipsum sed ex tristique mollis. Vivamus ornare eu elit id tincidunt. Vivamus ac justo efficitur, viverra nisl ac, imperdiet orci. Proin pulvinar, lorem non luctus suscipit, metus sem dapibus lorem, nec tempus urna enim sed nunc. Sed ac lobortis tellus, et tristique eros. Aenean nec nibh a lorem pulvinar bibendum quis vel libero. Maecenas pretium urna id enim egestas, at volutpat ex consequat. Nunc at odio eget mauris rhoncus blandit eget nec felis. Integer pulvinar pretium libero, eget mollis turpis consequat non.",
+            "repository": "https://github.com/harsh27vardhana/lemonerd-next-app/",
+            "link": "https://lemonerd-next-app.vercel.app/",
+            "image": "/assets/images/projects/lemonerd.gif"
+        },
+        {
+            "id": "003",
+            "title": "Weather Website",
+            "summary": "This website was also a part of LEAD where I was first introduced to API calls, thus being my first Javascript extensive work",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus vel augue sodales facilisis non eu turpis. Duis id efficitur libero. Donec leo odio, commodo ac enim nec, ultrices egestas nibh. Nam sit amet tempor purus, non ultricies neque. Nam malesuada in lectus ac euismod. Mauris ut ultrices felis, vitae pretium orci. Nunc consequat velit purus, at placerat purus cursus eu. Maecenas consectetur ipsum sed ex tristique mollis. Vivamus ornare eu elit id tincidunt. Vivamus ac justo efficitur, viverra nisl ac, imperdiet orci. Proin pulvinar, lorem non luctus suscipit, metus sem dapibus lorem, nec tempus urna enim sed nunc. Sed ac lobortis tellus, et tristique eros. Aenean nec nibh a lorem pulvinar bibendum quis vel libero. Maecenas pretium urna id enim egestas, at volutpat ex consequat. Nunc at odio eget mauris rhoncus blandit eget nec felis. Integer pulvinar pretium libero, eget mollis turpis consequat non.",
+            "repository": "https://github.com/sinha-anubhav79/IEEE-LEAD/tree/sinha-anubhav79/Project-3/sinha-anubhav79",
+            "link": "https://sinha-anubhav79.github.io/weatherAPI/",
+            "image": "/assets/images/projects/project02.gif"
+        },
+        {
+            "id": "002",
+            "title": "Portfolio Website",
+            "summary": "I made this webiste as a part of LEAD 2020, an event by IEEE BIT MESRA student chapter where this was the first project assigned to us",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus vel augue sodales facilisis non eu turpis. Duis id efficitur libero. Donec leo odio, commodo ac enim nec, ultrices egestas nibh. Nam sit amet tempor purus, non ultricies neque. Nam malesuada in lectus ac euismod. Mauris ut ultrices felis, vitae pretium orci. Nunc consequat velit purus, at placerat purus cursus eu. Maecenas consectetur ipsum sed ex tristique mollis. Vivamus ornare eu elit id tincidunt. Vivamus ac justo efficitur, viverra nisl ac, imperdiet orci. Proin pulvinar, lorem non luctus suscipit, metus sem dapibus lorem, nec tempus urna enim sed nunc. Sed ac lobortis tellus, et tristique eros. Aenean nec nibh a lorem pulvinar bibendum quis vel libero. Maecenas pretium urna id enim egestas, at volutpat ex consequat. Nunc at odio eget mauris rhoncus blandit eget nec felis. Integer pulvinar pretium libero, eget mollis turpis consequat non.",
+            "repository": "https://github.com/sinha-anubhav79/Portfolio/",
+            "link": "https://sinha-anubhav79.github.io/Portfolio/",
+            "image": "/assets/images/projects/project01.gif"
+        },
+        {
+            "id": "001",
+            "title": "Web scraping",
+            "summary": "This project too was a part part of LEAD, where we had to scrape data from google and different-commerce websites",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus vel augue sodales facilisis non eu turpis. Duis id efficitur libero. Donec leo odio, commodo ac enim nec, ultrices egestas nibh. Nam sit amet tempor purus, non ultricies neque. Nam malesuada in lectus ac euismod. Mauris ut ultrices felis, vitae pretium orci. Nunc consequat velit purus, at placerat purus cursus eu. Maecenas consectetur ipsum sed ex tristique mollis. Vivamus ornare eu elit id tincidunt. Vivamus ac justo efficitur, viverra nisl ac, imperdiet orci. Proin pulvinar, lorem non luctus suscipit, metus sem dapibus lorem, nec tempus urna enim sed nunc. Sed ac lobortis tellus, et tristique eros. Aenean nec nibh a lorem pulvinar bibendum quis vel libero. Maecenas pretium urna id enim egestas, at volutpat ex consequat. Nunc at odio eget mauris rhoncus blandit eget nec felis. Integer pulvinar pretium libero, eget mollis turpis consequat non.",
+            "repository": "https://github.com/sinha-anubhav79/IEEE-LEAD/tree/sinha-anubhav79/Project-2/sinha-anubhav79",
+            "image": "/assets/images/projects/project03.gif"
+        }
+    ],
+    "appDevelopment": [
+        {
+            "id": "006",
+            "title": "Covid Companion",
+            "summary": "Along with my 4 team members, I contributed to this project under the leadership of Rahul Sinha for Lock-a-thon. This was my first experience with flutter and mobile development itself",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus vel augue sodales facilisis non eu turpis. Duis id efficitur libero. Donec leo odio, commodo ac enim nec, ultrices egestas nibh. Nam sit amet tempor purus, non ultricies neque. Nam malesuada in lectus ac euismod. Mauris ut ultrices felis, vitae pretium orci. Nunc consequat velit purus, at placerat purus cursus eu. Maecenas consectetur ipsum sed ex tristique mollis. Vivamus ornare eu elit id tincidunt. Vivamus ac justo efficitur, viverra nisl ac, imperdiet orci. Proin pulvinar, lorem non luctus suscipit, metus sem dapibus lorem, nec tempus urna enim sed nunc. Sed ac lobortis tellus, et tristique eros. Aenean nec nibh a lorem pulvinar bibendum quis vel libero. Maecenas pretium urna id enim egestas, at volutpat ex consequat. Nunc at odio eget mauris rhoncus blandit eget nec felis. Integer pulvinar pretium libero, eget mollis turpis consequat non.",
+            "repository": "https://github.com/sinha-anubhav79/covid_1/tree/sinha-anubhav79",
+            "image": "/assets/images/projects/project05.gif"
+        },
+        {
+            "id": "007",
+            "title": "Dine-inn",
+            "summary": "I lead this flutter project along with my teammates Rahul Sinha and Ritika Kumari for Mega Projects which was online seat booking system for restaurants to avoid crowding",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus vel augue sodales facilisis non eu turpis. Duis id efficitur libero. Donec leo odio, commodo ac enim nec, ultrices egestas nibh. Nam sit amet tempor purus, non ultricies neque. Nam malesuada in lectus ac euismod. Mauris ut ultrices felis, vitae pretium orci. Nunc consequat velit purus, at placerat purus cursus eu. Maecenas consectetur ipsum sed ex tristique mollis. Vivamus ornare eu elit id tincidunt. Vivamus ac justo efficitur, viverra nisl ac, imperdiet orci. Proin pulvinar, lorem non luctus suscipit, metus sem dapibus lorem, nec tempus urna enim sed nunc. Sed ac lobortis tellus, et tristique eros. Aenean nec nibh a lorem pulvinar bibendum quis vel libero. Maecenas pretium urna id enim egestas, at volutpat ex consequat. Nunc at odio eget mauris rhoncus blandit eget nec felis. Integer pulvinar pretium libero, eget mollis turpis consequat non.",
+            "repository": "https://github.com/sinha-anubhav79/Dine-inn",
+            "image": "/assets/images/projects/project06.gif"
+        }
+    ],
+    "designWork": [
+        {
+            "id": "008",
+            "title": "Design Work",
+            "summary": "I worked at NEEV, which is a company that makes natural skin-care products and provides employment to rural women. I handled their instagram page for around two months, designing posters, videos and advertisements.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus vel augue sodales facilisis non eu turpis. Duis id efficitur libero. Donec leo odio, commodo ac enim nec, ultrices egestas nibh. Nam sit amet tempor purus, non ultricies neque. Nam malesuada in lectus ac euismod. Mauris ut ultrices felis, vitae pretium orci. Nunc consequat velit purus, at placerat purus cursus eu. Maecenas consectetur ipsum sed ex tristique mollis. Vivamus ornare eu elit id tincidunt. Vivamus ac justo efficitur, viverra nisl ac, imperdiet orci. Proin pulvinar, lorem non luctus suscipit, metus sem dapibus lorem, nec tempus urna enim sed nunc. Sed ac lobortis tellus, et tristique eros. Aenean nec nibh a lorem pulvinar bibendum quis vel libero. Maecenas pretium urna id enim egestas, at volutpat ex consequat. Nunc at odio eget mauris rhoncus blandit eget nec felis. Integer pulvinar pretium libero, eget mollis turpis consequat non.",
+            "link": "https://www.instagram.com/neevsoaps/",
+            "image": "/assets/images/projects/project07.png"
+        }
+    ]
+}

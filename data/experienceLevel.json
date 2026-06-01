@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "level": "College",
+    "imgSrc": "/assets/images/experienceLevel/collegeLevel.jpg"
+  },
+  {
+    "id": 2,
+    "level": "Industry",
+    "imgSrc": "/assets/images/experienceLevel/industryLevel.jpg"
+  },
+  {
+    "id": 3,
+    "level": "Freelance",
+    "imgSrc": "/assets/images/experienceLevel/freelanceLevel.jpg"
+  }
+]

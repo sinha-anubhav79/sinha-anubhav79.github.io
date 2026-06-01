@@ -1,0 +1,26 @@
+.showcase {
+  width: 100%;
+  height: 91.5vh;
+  position: relative;
+  display: table;
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(to bottom right, rgba(19, 1, 37, 0.082), rgba(12, 11, 19, 0.055)), url("/assets/images/main-background_2.jpg");
+}
+
+.mainIcon {
+  height: 30vh;
+}
+
+.typewriter {
+  font-family: "Ubuntu";
+  font-size: 58px;
+  font-weight: bold;
+  color: white;
+}
+
+.changingText {
+  font-size: 50px;
+  line-height: 3rem;
+  color: rgb(var(--themeLight));
+}
