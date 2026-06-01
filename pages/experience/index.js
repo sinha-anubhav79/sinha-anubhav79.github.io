@@ -98,7 +98,7 @@ function Experience({ data }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'data', 'experience.json');
   let data = [];
   if (fs.existsSync(filePath)) {

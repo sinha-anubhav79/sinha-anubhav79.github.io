@@ -1,13 +1,23 @@
 import { useRouter } from 'next/router';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Form, Button, Container, Row, Col, Card } from 'react-bootstrap';
-import { getUserFromRequest } from '../context/auth';
 
 export default function LoginPage() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const router = useRouter();
+
+  useEffect(() => {
+    fetch('/api/user')
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.loggedIn) {
+          router.push('/dashboard');
+        }
+      })
+      .catch(console.error);
+  }, [router]);
 
   async function handleLogin(e) {
     e.preventDefault();
@@ -73,20 +83,4 @@ export default function LoginPage() {
     </Container>
   );
 }
-
-export async function getServerSideProps({ req }) {
-  const user = getUserFromRequest(req);
-
-  if (user) {
-    return {
-      redirect: {
-        destination: '/dashboard',
-        permanent: false,
-      },
-    };
-  }
-
-  return {
-    props: {},
-  };
 }

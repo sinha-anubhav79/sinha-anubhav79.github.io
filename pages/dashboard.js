@@ -1,13 +1,22 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router.js';
-import { withAuth } from '../context/authGuard.js';
-
-
-export const getServerSideProps = withAuth;
-
-export default function Dashboard({ user }) {
+export default function Dashboard() {
+  const [user, setUser] = useState({ username: '' });
   const [error, setError] = useState('');
   const router = useRouter();
+
+  useEffect(() => {
+    fetch('/api/user')
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.loggedIn) {
+          setUser({ username: data.username || 'Admin' });
+        } else {
+          router.push('/login');
+        }
+      })
+      .catch(() => router.push('/login'));
+  }, [router]);
 
   async function handleLogout(e) {
     e.preventDefault();

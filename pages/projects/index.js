@@ -99,7 +99,7 @@ function Projects({ data }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'data', 'projects.json');
   let data = { webDevelopment: [], appDevelopment: [], designWork: [] };
   if (fs.existsSync(filePath)) {
